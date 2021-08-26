@@ -9,14 +9,9 @@ int main(){
         }
         for (int i = 1; i <= limit; i++)
         {
-            cout << i;
-            if(i != limit){
-                cout << " ";
-            }
-            else {
-                cout << endl;
-            }
+            cout << i << " ";
         }
+        cout << endl;
     }
     return 0;
 }
